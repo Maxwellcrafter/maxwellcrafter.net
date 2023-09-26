@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+GL300 GPS tracking device
+</title>
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="height=device-height">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content="Computers and other tech stuff">
+<meta name="keywords" content="Maxwellcrafter">
+<link rel="stylesheet" href="https://maxwellcrafter.com/menu.css">
+</head>
+<body>
+<center>
+<div id=javascript-enabled>
+<h1>
+SpyTec GL300 GPS tracker
+</h1>
+<h3>
+Maxwell Fisher - 2021-05-13
+</h3>
+<br>
+<a>
+I bought this device a while back to mess around with. It's a small GPS tracker that uses cellular data, meaning that you can see where it is located in nearly any location where phone service is available
+<br>
+</a>
+<a href="1.jpg">
+<img src="1.jpg" alt="GPS tracker" width="60%" loading="lazy">
+</a>
+<a href="2.jpg">
+<img src="2.jpg" alt="GPS tracker" width="38%" loading="lazy">
+</a>
+<br>
+<br>
+<a>
+It charges via mini USB, and so I'm wondering if I could get access to it using that
+</a>
+<br>
+<br>
+<a>
+After being plugged in for a few minutes to charge, it now shows 2 flashing lights
+</a>
+<br>
+<a href="3.jpg">
+<img src="3.jpg" alt="GPS tracker" width="65%" loading="lazy">
+</a>
+<br>
+<br>
+<a>
+Though I still can't get any data from it even after trying a few different button combinations, so I'm thinking that the data lines aren't wired up. Which is strange, because it has the pins that are used for data
+</a>
+<br>
+<a href="4.jpg">
+<img src="4.jpg" alt="GPS tracker" width="65%" loading="lazy">
+</a>
+<br>
+<br>
+<a>
+It's held together by 4 screws, but they are covered in a plug thing, making me think that the designers don't want people to know what the inside looks like. What secrets does it contain? A sim card, the meaning of life, or a tiny phone? I guess we'll never know
+</a>
+<br>
+<a href="5.jpg">
+<img src="5.jpg" alt="GPS tracker" width="65%" loading="lazy">
+</a>
+<br>
+<br>
+<a>
+Luckily the plugs aren't glued in, though it's still a bit difficult to remove them
+</a>
+<br>
+<a href="6.jpg">
+<img src="6.jpg" alt="GPS tracker" width="65%" loading="lazy">
+</a>
+<br>
+<br>
+<a>
+Opening the case reveals 2 half's – one with a battery
+</a>
+<br>
+<a href="7.jpg">
+<img src="7.jpg" alt="GPS tracker" width="50%" loading="lazy">
+</a>
+<a href="8.jpg">
+<img src="8.jpg" alt="GPS tracker" width="48%" loading="lazy">
+</a>
+<br>
+<br>
+<a>
+And here are some photos of the PCB (which sadly has annoying shielding)
+</a>
+<br>
+<a href="9.jpg">
+<img src="9.jpg" alt="GPS tracker" width="49%" loading="lazy">
+</a>
+<a href="10.jpg">
+<img src="10.jpg" alt="GPS tracker" width="49%" loading="lazy">
+</a>
+<br>
+<br>
+<a>
+These pins are for reading a sim card when there is one in the slot. Which there isn't for some reason..?
+</a>
+<br>
+<a href="11.jpg">
+<img src="11.jpg" alt="GPS tracker" width="65%" loading="lazy">
+</a>
+<br>
+<br>
+<a>
+This is the GPS itself, which I'd say is pretty important for a GPS tracking device
+</a>
+<br>
+<a href="12.jpg">
+<img src="12.jpg" alt="GPS tracker" width="65%" loading="lazy">
+</a>
+<br>
+<br>
+<a>
+And then there are quite a few test pads, with the main one that I'm interested in being the one that says `SAFEBOOT`
+</a>
+<br>
+<a href="13.jpg">
+<img src="13.jpg" alt="GPS tracker" width="65%" loading="lazy">
+</a>
+<br>
+<br>
+<a>
+Here are some photos of what is under the shielding, credit to the device's FCC documents
+</a>
+<br>
+<a href="14.jpg">
+<img src="14.jpg" alt="GPS tracker" width="65%" loading="lazy">
+</a>
+<br>
+<br>
+<a>
+The photos reveal that this uses a MediaTek MT6261A ARM processor. I'm beginning to have suspicions that this is running Android, or at least something like it
+</a>
+<br>
+<br>
+<a>
+This is the closest diagram for the processor that I could find, though I'm not sure that it's for the same thing. (It's for the MT6260A, whereas the processor that I have is the MT6261A)
+</a>
+<br>
+<a href="15.jpg">
+<img src="15.jpg" alt="GPS tracker" width="65%" loading="lazy">
+</a>
+<br>
+<br>
+<a>
+To be continued...
+</a>
+
+
+
+</a>
+
+</div>
+</center>
+<noscript>
+<a>
+<center><br>It looks like you don't have JavaScript enabled on your browser.<br>Enabling it can make this site look better, though it isn't required<br>&#127850;&#9749;<center>
+</a>
+</noscript>
+</body>
+<html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Wordmaster Deluxe
+</title>
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="height=device-height">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content="Computers and other tech stuff">
+<meta name="keywords" content="Maxwell Fisher, Maxwellcrafter, maxwell fisher boise, maxwell fisher tech, calculator">
+<style>
+img {
+border-radius: 5vw;
+}
+body {
+background-color: black;
+}
+div {
+width: 75%;
+height: 95%;
+}
+a {
+font-family: monospace, "lucidia console", sans-serif;
+/*font: 1.3rem Inconsolata, monospace;*/
+text-shadow: 0 0 1px #FF00FF;
+color: white;
+font-weight: bold;
+font-size: 16px;
+font-size: 2vw;
+text-decoration: none;
+letter-spacing: 0.01em;
+}
+h1 {
+font-family: arial, "lucidia console", sans-serif;
+color: white;
+font-weight: bold;
+font-size: 24px;
+font-size: 4vw;
+text-decoration: none;
+}
+h3 {
+font-family: arial, "lucidia console", sans-serif;
+color: white;
+font-weight: bold;
+font-size: 10px;
+font-size: 1vw;
+text-decoration: none;
+}
+.blinking{
+animation:blinkingText 1.5s infinite;
+color: white;
+font-family: arial, "lucidia console", sans-serif;
+font-size: 16px;
+font-size: 2vw;
+}
+@keyframes blinkingText{
+0%{color:#FFF;}
+49%{color:#FFF;}
+60%{color:transparent;}
+99%{color:transparent;}
+100%{color:#FFF;}
+}
+</style>
+</head>
+<body>
+<center>
+<div id=javascript-enabled>
+<h1>
+Franklin Computer Wordmaster
+</h1>
+<h3>
+Maxwell Fisher 2020-06-29
+</h3>
+<br>
+<a>
+<img src="main.jpg" alt="wordmaster 1055" width="100%">
+</a>
+<br>
+<a>
+The Franklin Computer Wordmaster Deluxe (WM-1055) is a small, portable, electronic dictionary. It has many functions, such as a thesaurus, a spelling checker, and more. This exact one seems to have been made in 1989 because of the copywrite info on the back and in the user manual, though I am not completely sure when it was made. The display is a 16 digit dot matrix LCD screen with adjustable contrast. The device has spelling correction for over 80,000 words,  while the thesaurus has over 78,000 word definitions. The device also has a few games, which include Hangman, Anagrams, Deduction, and Jumble. Some extra features are virtual dice, a random number generator, a random word generator, a lottery number generator, and a word list generator.
+</a>
+</div>
+</center>
+<noscript>
+<a>
+It looks like you don't have JavaScript enabled on your browser. Enabling it can make this site and others do many more very cool things!
+</a>
+<style type="text/css">
+#javascript-enabled { display:none; }
+</style>
+</noscript>
+</body>
+<html>

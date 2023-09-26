@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<script data-ad-client="ca-pub-8914625818763025" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<title>
+Discord Chatbot
+</title>
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="height=device-height">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166609171-1">
+</script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-166609171-1');
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content="Computers and other tech stuff">
+<meta name="keywords" content="Maxwell Fisher, Maxwellcrafter, maxwell fisher boise, maxwell fisher tech, calculator">
+<style>
+body {
+background-color: black;
+background-image: url("./background.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+div {
+width: 75%;
+height: 95%;
+}
+/*a {
+font-family: arial, "lucidia console", sans-serif;
+color: white;
+font-weight: bold;
+font-size: 16px;
+font-size: 2vw;
+text-decoration: none;
+line-height: 2;
+}*/
+a {
+font-family: monospace, "lucidia console", sans-serif;
+/*font: 1.3rem Inconsolata, monospace;*/
+text-shadow: 0 0 1px #FF00FF;
+color: white;
+font-weight: bold;
+font-size: 16px;
+font-size: 2vw;
+text-decoration: none;
+letter-spacing: 0.01em;
+}
+h1 {
+font-family: arial, "lucidia console", sans-serif;
+color: white;
+font-weight: bold;
+font-size: 24px;
+font-size: 4vw;
+text-decoration: none;
+}
+h3 {
+font-family: arial, "lucidia console", sans-serif;
+color: white;
+font-weight: bold;
+font-size: 10px;
+font-size: 1vw;
+text-decoration: none;
+}
+h2 {
+font-family: arial, "lucidia console", sans-serif;
+color: white;
+font-weight: bold;
+font-size: 15px;
+font-size: 1.5vw;
+text-decoration: none;
+}
+.blinking{
+animation:blinkingText 1.5s infinite;
+color: white;
+font-family: arial, "lucidia console", sans-serif;
+font-size: 16px;
+font-size: 2vw;
+}
+@keyframes blinkingText{
+0%{color:#FFF;}
+49%{color:#FFF;}
+60%{color:transparent;}
+99%{color:transparent;}
+100%{color:#FFF;}
+}
+img {
+border-radius: 50%;
+height: 4vw;
+width: auto;
+vertical-align: middle;
+}
+</style>
+</head>
+<body>
+<center>
+<div id=javascript-enabled>
+<h1>
+Discord Notebot
+<a href="./notebot-logo.png" style="vertical-align: middle">
+<img src="./notebot-logo-low.png" alt="Notebot logo"></img>
+</a>
+</h1>
+<h2>
+Notebot#7196
+</h2>
+<br>
+<br>
+<a>
+This is just a simple Discord bot that allows you to write notes and view them later, across any Discord server that has the bot and that is logged in with the same user as the one that created the note. You can create, delete, and view your notes. New features may be added soon, which include but are not limited to: editing, sharing, and transfering notes between users.
+</a>
+<br>
+<br>
+<br>
+#<a href="">
+#Click here to get the bot
+#</a>
+</div>
+</center>
+<noscript>
+<a>
+It looks like you don't have JavaScript enabled on your browser. Enabling it can make this site and others do many more very cool things!
+</a>
+<style type="text/css">
+#javascript-enabled { display:none; }
+</style>
+</noscript>
+</body>
+<html>
