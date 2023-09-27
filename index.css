@@ -20,11 +20,28 @@ body  {
 }
 
 @keyframes blinkingText {
-0%{color:#FFF;}
-49%{color:#FFF;}
-60%{color:transparent;}
-99%{color:transparent;}
-100%{color:#FFF;}
+  0%{
+    color:#FFF;
+  }
+  40%{
+    color:#FFF;
+  }
+  60%{
+    color:transparent;
+  }
+  95%{
+    color:transparent;
+  }
+  100%{color:#FFF;}
+}
+
+.blinking{
+  animation:blinkingText 1.2s infinite;
+  color: white;
+  font-family: arial, "lucidia console", sans-serif;
+  text-shadow: 0 0 .5vw #BF00BF;
+  font-size: 16px;
+  font-size: 2.5vw;
 }
 
 .truth {
@@ -38,7 +55,7 @@ body {
 a {
   font-family: monospace, "lucidia console", sans-serif;
   /*font: 1.3rem Inconsolata, monospace;*/
-  text-shadow: 0 0 .5vw #810081;
+  text-shadow: 0 0 .5vw #BF00BF;
   color: white;
   font-weight: bold;
   font-size: 16px;
@@ -53,7 +70,7 @@ a {
 p {
   font-family: monospace, "lucidia console", sans-serif;
   /*font: 1.3rem Inconsolata, monospace;*/
-  text-shadow: 0 0 .5vw #810081;
+  text-shadow: 0 0 .5vw #BF00BF;
   color: white;
   font-weight: bold;
   font-size: 16px;
@@ -66,7 +83,7 @@ p {
 }
 
 #clickable {
-  text-shadow: 0 0 .5vw #810081;
+  text-shadow: 0 0 .5vw #BF00BF;
 }
 #clickable:hover {
   color: #BF00BF;
@@ -98,14 +115,6 @@ p {
   word-wrap:break-all;
 }
 
-.blinking{
-  animation:blinkingText 1.2s infinite;
-  color: white;
-  font-family: arial, "lucidia console", sans-serif;
-  font-size: 16px;
-  font-size: 2vw;
-}
-
 picture {
   border-radius: 5vw;
 }
@@ -122,7 +131,7 @@ div {
 h1 {
   font-family: monospace, "lucidia console", sans-serif;
   /*font: 1.3rem Inconsolata, monospace;*/
-  text-shadow: 0 0 1px #FF00FF;
+  text-shadow: 0 0 .5vw #BF00BF;
   color: white;
   font-weight: bold;
   font-size: 32px;
@@ -135,7 +144,7 @@ h1 {
 h2 {
   font-family: monospace, "lucidia console", sans-serif;
   /*font: 1.3rem Inconsolata, monospace;*/
-  text-shadow: 0 0 1px #FF00FF;
+  text-shadow: 0 0 .5vw #BF00BF;
   color: white;
   font-weight: bold;
   font-size: 24px;
@@ -148,7 +157,7 @@ h2 {
 h3 {
   font-family: monospace, "lucidia console", sans-serif;
   /*font: 1.3rem Inconsolata, monospace;*/
-  text-shadow: 0 0 1px #FF00FF;
+  text-shadow: 0 0 .5vw #BF00BF;
   color: white;
   font-weight: bold;
   font-size: 18px;
