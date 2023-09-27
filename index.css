@@ -20,11 +20,28 @@ body  {
 }
 
 @keyframes blinkingText {
-0%{color:#FFF;}
-49%{color:#FFF;}
-60%{color:transparent;}
-99%{color:transparent;}
-100%{color:#FFF;}
+  0%{
+    color:#FFF;
+  }
+  40%{
+    color:#FFF;
+  }
+  60%{
+    color:transparent;
+  }
+  95%{
+    color:transparent;
+  }
+  100%{color:#FFF;}
+}
+
+.blinking{
+  animation:blinkingText 1.2s infinite;
+  color: white;
+  font-family: arial, "lucidia console", sans-serif;
+  text-shadow: 0 0 .5vw #BF00BF;
+  font-size: 16px;
+  font-size: 4vw;
 }
 
 .truth {
@@ -96,14 +113,6 @@ p {
   -webkit-hyphens:auto;
   hyphens:auto;
   word-wrap:break-all;
-}
-
-.blinking{
-  animation:blinkingText 1.2s infinite;
-  color: white;
-  font-family: arial, "lucidia console", sans-serif;
-  font-size: 16px;
-  font-size: 2vw;
 }
 
 picture {
