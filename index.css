@@ -50,6 +50,21 @@ a {
   -moz-outline-style: none;
 }
 
+p {
+  font-family: monospace, "lucidia console", sans-serif;
+  /*font: 1.3rem Inconsolata, monospace;*/
+  text-shadow: 0 0 .5vw #810081;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  font-size: 2vw;
+  text-decoration: none;
+  letter-spacing: 0.01em;
+  outline: 0;
+  border: none;
+  -moz-outline-style: none;
+}
+
 #clickable {
   text-shadow: 0 0 .5vw #810081;
 }
