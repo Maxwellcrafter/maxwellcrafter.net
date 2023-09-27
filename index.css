@@ -50,6 +50,14 @@ a {
   -moz-outline-style: none;
 }
 
+#clickable {
+  text-shadow: 0 0 .5vw #810081;
+}
+#clickable:hover {
+  color: #810081;
+  text-shadow: none;
+}
+
 .dir {
   font-family: monospace, "lucidia console", sans-serif;
   /*font: 1.3rem Inconsolata, monospace;*/
