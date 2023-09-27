@@ -38,7 +38,7 @@ body {
 a {
   font-family: monospace, "lucidia console", sans-serif;
   /*font: 1.3rem Inconsolata, monospace;*/
-  text-shadow: 0 0 1px #FF00FF;
+  text-shadow: 0 0 .5vw #810081;
   color: white;
   font-weight: bold;
   font-size: 16px;
